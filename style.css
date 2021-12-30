@@ -1,0 +1,114 @@
+html {
+  text-align: center;
+  font-family:'Courier Prime', monospace;
+}
+
+header {
+  display: flex;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  position: relative;
+  left: 55%;
+}
+
+ul {
+  display: inline-flex;
+  list-style-type: none;
+
+}
+
+li {
+  padding: 15px;
+}
+
+footer {
+  float: left;
+}
+
+.destinations {
+  margin-top: 75px;
+}
+
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box figcaption {
+  font-size: 20px;
+}
+
+.box img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  padding: 10px;
+  height: auto;
+}
+
+.content2 h1 {
+  padding-top: 30px;
+}
+
+.guide {
+  margin: 0px 20px;
+}
+
+.guide figcaption {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+
+#logo {
+  height: 120px;
+  width: 150px;
+}
+
+#overview {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-image: url('./img/Balloons.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#content {
+  display: block;
+  margin: auto;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+#team {
+  background-image: url("./img/clouds.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+#guides {
+  display: flex;
+  flex-wrap;
+  justify-content: center;
+}
+
+#contact {
+  margin-top: 40px;
+}
